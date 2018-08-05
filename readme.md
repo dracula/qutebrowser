@@ -16,6 +16,8 @@ A theme for [Qutebrowser](https://qutebrowser.org) based on the [Dracula](https:
 config.source('themes/dracula/theme.py')
 ```
 
+## More Info
+
 For more information, check out the Qutebrowser documentation on [Configuring Qutebrowser](https://qutebrowser.org/doc/help/configuring.html), in particular the section on config.py.
 
 ## Other Cool Themes
