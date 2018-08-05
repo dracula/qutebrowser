@@ -292,6 +292,3 @@ c.tabs.favicons.scale = 1.3
 ## Type: QtColor
 # c.colors.webpage.bg = 'white'
 
-# &c
-c.completion.min_chars = 3
-

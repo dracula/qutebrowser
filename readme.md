@@ -6,7 +6,7 @@ A theme for [Qutebrowser](https://qutebrowser.org) based on the [Dracula](https:
 
 ## Installation
 
-This theme is intended as a starter config.py file. Check out the Qutebrowser documentation on [Configuring Qutebrowser](qute://help/configuring.html), in particular the section on config.py.
+This theme is intended as a starter config.py file. Check out the Qutebrowser documentation on [Configuring Qutebrowser](https://qutebrowser.org/doc/help/configuring.html), in particular the section on config.py.
 
 ## Other Cool Themes
 
