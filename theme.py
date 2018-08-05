@@ -99,8 +99,7 @@ c.colors.hints.bg = palette['background']
 c.colors.hints.fg = palette['purple']
 
 ## Hints
-c.hints.border = '1px solid ' + palette['purple']
-c.hints.uppercase = True
+c.hints.border = '1px solid ' + palette['background-alt']
 
 ## Font color for the matched part of hints.
 c.colors.hints.match.fg = palette['foreground-alt']
@@ -287,8 +286,27 @@ c.tabs.padding = standard_padding
 c.tabs.indicator.width = 1
 c.tabs.favicons.scale = 1.3
 
-## Background color for webpages if unset (or empty to use the theme's
-## color)
-## Type: QtColor
-# c.colors.webpage.bg = 'white'
-
+# Fonts
+c.fonts.monospace = 'Menlo, "xos4 Terminus", Terminus, Monospace, "DejaVu Sans Mono", Monaco, "Bitstream Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Fixed, Consolas, Terminal' 
+c.fonts.completion.entry = '10pt monospace'
+c.fonts.completion.category = 'bold'
+c.fonts.debug_console = '10pt monospace' 
+c.fonts.downloads = '10pt monospace'
+c.fonts.hints = '10pt monospace'
+c.fonts.keyhint = '10pt monospace'
+c.fonts.messages.error = '10pt monospace'
+c.fonts.messages.info = '10pt monospace'
+c.fonts.messages.warning = '10pt monospace'
+c.fonts.prompts = '10pt monospace'
+c.fonts.statusbar = '10pt monospace'
+c.fonts.tabs = '10pt monospace'
+c.fonts.web.family.standard = ''
+c.fonts.web.family.fixed = ''
+c.fonts.web.family.serif = ''
+c.fonts.web.family.sans_serif = ''
+c.fonts.web.family.cursive = ''
+c.fonts.web.family.fantasy = ''
+c.fonts.web.size.default = 16
+c.fonts.web.size.default_fixed = 13
+c.fonts.web.size.minimum = 0
+c.fonts.web.size.minimum_logical = 6
