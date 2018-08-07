@@ -7,13 +7,22 @@ A theme for [Qutebrowser](https://qutebrowser.org) based on the [Dracula](https:
 ## Installation
 
 - Find your ~/.qutebrowser directory.
-- Create a subdirectory ~/.qutebrowser/themes
-- `cd ~/.qutebrowser/themes`
 - `git clone git@github.com:evannagle/qutebrowser-dracula-theme.git dracula`
 - In ~/.qutebrowser/config.py, add the following line:
 
 ```python
-config.source('themes/dracula/theme.py')
+import dracula.draw
+
+dracula.draw.blood(c, {
+    'spacing': {
+        'vertical': 6,
+        'horizontal': 8
+    },
+    'font': {
+        'family': 'Menlo, Terminus, Monaco, Monospace',
+        'size': 10
+    }
+})
 ```
 
 ## More Info
