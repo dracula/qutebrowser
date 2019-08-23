@@ -7,7 +7,7 @@ A theme for [Qutebrowser](https://qutebrowser.org) based on the [Dracula](https:
 ## Installation
 
 - Find your ~/.qutebrowser directory.
-- `git clone git@github.com:evannagle/qutebrowser-dracula-theme.git dracula`
+- `git clone https://github.com/evannagle/qutebrowser-dracula-theme.git dracula`
 - In ~/.qutebrowser/config.py, add the following:
 
 ```python
