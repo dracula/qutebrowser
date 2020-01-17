@@ -12,12 +12,15 @@ Download using the [GitHub .zip download](https://github.com/dracula/qutebrowser
 
 #### Activating theme
 
-- Find your `~/.qutebrowser` directory.
-- Copy and paste the `qutebrowser` folder to `~/.qutebrowser`.
-- In `~/.qutebrowser/config.py`, add the following:
+- Find your qutebrowser configuration directory (see e.g. `:version` in qutebrowser).
+- Move the repository folder to `dracula` inside the configuration directory.
+- In `config.py`, add the following:
 
 ```python
 import dracula.draw
+
+# Load existing settings made via :set
+config.load_autoconfig()
 
 dracula.draw.blood(c, {
     'spacing': {
