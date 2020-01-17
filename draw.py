@@ -31,14 +31,6 @@ def blood(c, options = {}):
         'left': spacing['horizontal']
     })
 
-    font = options.get('font', {
-        'family': 'Menlo, "xos4 Terminus", Terminus, Monospace, Monaco, "Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Consolas, Terminal',
-        'size': 10
-    })
-
-    monospace = font.get('family', 'Menlo, "xos4 Terminus", Terminus, Monospace, Monaco, "Vera Sans Mono", "Andale Mono", "Courier New", Courier, "Liberation Mono", monospace, Consolas, Terminal')
-    font_size = font.get('size', 10)
-
     ## Background color of the completion widget category headers.
     c.colors.completion.category.bg = palette['background']
 
@@ -296,32 +288,4 @@ def blood(c, options = {}):
     c.tabs.padding = padding
     c.tabs.indicator.width = 1
     c.tabs.favicons.scale = 1
-
-    # Fonts
-    font_size_str = str(font_size) + 'pt'
-    font_size_small_str = str(font_size - 1) + 'pt'
-
-    c.fonts.monospace = monospace
-    c.fonts.completion.entry = font_size_str + ' monospace'
-    c.fonts.completion.category = 'bold'
-    c.fonts.debug_console = font_size_str + ' monospace' 
-    c.fonts.downloads = font_size_str + ' monospace'
-    c.fonts.hints = font_size_small_str + ' monospace'
-    c.fonts.keyhint = font_size_str + ' monospace'
-    c.fonts.messages.error = font_size_str + ' monospace'
-    c.fonts.messages.info = font_size_str + ' monospace'
-    c.fonts.messages.warning = font_size_str + ' monospace'
-    c.fonts.prompts = font_size_str + ' monospace'
-    c.fonts.statusbar = font_size_small_str + ' monospace'
-    c.fonts.tabs = font_size_str  + ' monospace'
-    c.fonts.web.family.standard = ''
-    c.fonts.web.family.fixed = ''
-    c.fonts.web.family.serif = ''
-    c.fonts.web.family.sans_serif = ''
-    c.fonts.web.family.cursive = ''
-    c.fonts.web.family.fantasy = ''
-    c.fonts.web.size.default = 16
-    c.fonts.web.size.default_fixed = 13
-    c.fonts.web.size.minimum = 0
-    c.fonts.web.size.minimum_logical = 6
 
