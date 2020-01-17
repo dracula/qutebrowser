@@ -12,7 +12,7 @@ Download using the [GitHub .zip download](https://github.com/dracula/qutebrowser
 
 #### Activating theme
 
-- Find your [qutebrowser config directory](https://www.qutebrowser.org/doc/help/configuring.html#configpy), e.g. ~/.config/qutebrowser. This folder should be located at the "config" location listed on qute://version, which is typically ~/.config/qutebrowser/ on Linux, ~/.qutebrowser/ on macOS, and %APPDATA%/qutebrowser/config/ on Windows.
+- Find your *[qutebrowser config directory](https://www.qutebrowser.org/doc/help/configuring.html#configpy)*. ~/.config/qutebrowser. This folder should be located at the "config" location listed on qute://version, which is typically ~/.config/qutebrowser/ on Linux, ~/.qutebrowser/ on macOS, and %APPDATA%/qutebrowser/config/ on Windows.
 - Copy and paste the `dracula` folder into the qutebrowser config directory 
 - In your [qutebrowser config.py file](https://www.qutebrowser.org/doc/help/configuring.html#configpy), include the following:
 
