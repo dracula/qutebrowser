@@ -4,7 +4,7 @@
 
 If you are a git user, you can install the theme and keep up to date by cloning the repo:
 
-    $ git clone https://github.com/dracula/qutebrowser.git
+    $ git clone https://github.com/dracula/qutebrowser-dracula-theme.git dracula
 
 #### Install manually
 
@@ -12,9 +12,9 @@ Download using the [GitHub .zip download](https://github.com/dracula/qutebrowser
 
 #### Activating theme
 
-- Find your qutebrowser configuration directory (see e.g. `:version` in qutebrowser).
+- Find your *[qutebrowser configuration directory](https://www.qutebrowser.org/doc/help/configuring.html#configpy)* (see e.g. `:version` in qutebrowser). This folder should be located at the "config" location listed on qute://version, which is typically ~/.config/qutebrowser/ on Linux, ~/.qutebrowser/ on macOS, and %APPDATA%/qutebrowser/config/ on Windows.
 - Move the repository folder to `dracula` inside the configuration directory.
-- In `config.py`, add the following:
+- In your [qutebrowser config.py file](https://www.qutebrowser.org/doc/help/configuring.html#configpy), include the following:
 
 ```python
 import dracula.draw
