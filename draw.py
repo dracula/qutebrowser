@@ -1,7 +1,7 @@
 def blood(c, options = {}):
     palette = {
         'background': '#282a36',
-        'background-alt': '#282a36', 
+        'background-alt': '#282a36',
         'background-attention': '#181920',
         'border': '#282a36',
         'current-line': '#44475a',
@@ -17,7 +17,7 @@ def blood(c, options = {}):
         'purple': '#bd93f9',
         'red': '#ff5555',
         'yellow': '#f1fa8c'
-    }   
+    }
 
     spacing = options.get('spacing', {
         'vertical': 5,
