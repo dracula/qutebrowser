@@ -289,3 +289,9 @@ def blood(c, options = {}):
     c.tabs.indicator.width = 1
     c.tabs.favicons.scale = 1
 
+    ## Context menu
+    c.colors.contextmenu.menu.bg = palette['background']
+    c.colors.contextmenu.menu.fg = palette['foreground']
+    c.colors.contextmenu.selected.bg = palette['selection']
+    c.colors.contextmenu.selected.fg = palette['foreground']
+    c.colors.contextmenu.disabled.fg = palette['selection']
