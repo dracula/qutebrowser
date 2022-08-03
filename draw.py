@@ -287,5 +287,3 @@ def blood(c, options = {}):
     ## Tab padding
     c.tabs.padding = padding
     c.tabs.indicator.width = 1
-    c.tabs.favicons.scale = 1
-
