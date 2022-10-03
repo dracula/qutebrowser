@@ -1,7 +1,7 @@
 def blood(c, options = {}):
     palette = {
         'background': '#282a36',
-        'background-alt': '#282a36', 
+        'background-alt': '#282a36',
         'background-attention': '#181920',
         'border': '#282a36',
         'current-line': '#44475a',
@@ -17,7 +17,7 @@ def blood(c, options = {}):
         'purple': '#bd93f9',
         'red': '#ff5555',
         'yellow': '#f1fa8c'
-    }   
+    }
 
     spacing = options.get('spacing', {
         'vertical': 5,
@@ -174,7 +174,7 @@ def blood(c, options = {}):
     c.colors.statusbar.command.fg = palette['pink']
 
     ## Background color of the statusbar in private browsing + command mode.
-    c.colors.statusbar.command.private.bg = palette['background']
+    c.colors.statusbar.command.private.bg = palette['background-attention']
 
     ## Foreground color of the statusbar in private browsing + command mode.
     c.colors.statusbar.command.private.fg = palette['foreground-alt']
@@ -198,7 +198,7 @@ def blood(c, options = {}):
     c.colors.statusbar.passthrough.fg = palette['orange']
 
     ## Background color of the statusbar in private browsing mode.
-    c.colors.statusbar.private.bg = palette['background-alt']
+    c.colors.statusbar.private.bg = palette['background-attention']
 
     ## Foreground color of the statusbar in private browsing mode.
     c.colors.statusbar.private.fg = palette['foreground-alt']
